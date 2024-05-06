@@ -1,14 +1,16 @@
 FROM php:7.2-apache
-
+MAINTAINER geschool
 
 
 # extension
 RUN apt-get update \
     && apt-get install -y \
+        zlib1g-dev \
         zip \
     && docker-php-ext-install pdo_mysql \
     && docker-php-ext-install mysqli \
-    && docker-php-ext-enable mysqli 
+    && docker-php-ext-enable mysqli \
+    && docker-php-ext-install zip
 
 
 # ioncube loader
@@ -32,6 +34,8 @@ COPY conf/config.php /var/www/html/
 
 RUN a2enmod rewrite
 RUN a2enmod ssl
+
+RUN chown -R www-data:www-data /var/www/html/*
 
 # apache user
 RUN usermod -u 1000 www-data \
