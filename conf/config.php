@@ -1,6 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false){
+    $_SERVER['HTTPS']='on';
+    $_SERVER['REQUEST_SCHEME']='https';
+}
+
+
 $server = getenv('DB_SERVER');
 
 if (!empty($server)){
