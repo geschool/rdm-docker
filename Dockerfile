@@ -10,7 +10,15 @@ RUN apt-get update \
     && docker-php-ext-install pdo_mysql \
     && docker-php-ext-install mysqli \
     && docker-php-ext-enable mysqli \
-    && docker-php-ext-install zip
+    && docker-php-ext-install zip 
+ 
+RUN apt-get install -y libpng-dev libfreetype6-dev libjpeg-dev 
+RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ &&  docker-php-ext-install gd
+
+RUN apt-get install -y curl libbz2-dev libsqlite3-dev
+
+RUN docker-php-ext-install curl &&  docker-php-ext-enable curl
+RUN docker-php-ext-install bz2 gettext mbstring exif fileinfo pdo_sqlite
 
 
 # ioncube loader
