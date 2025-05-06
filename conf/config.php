@@ -7,6 +7,16 @@ if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false){
 }
 
 
+if (isset($_SERVER['HTTP_CF_VISITOR'])) {
+    $cf_visitor = json_decode($_SERVER['HTTP_CF_VISITOR']);
+    if (isset($cf_visitor->scheme) && $cf_visitor->scheme == 'https') {
+        $_SERVER['HTTPS']='on';
+        $_SERVER['REQUEST_SCHEME']='https';
+    }
+}
+
+
+
 $server = getenv('DB_SERVER');
 
 if (!empty($server)){
