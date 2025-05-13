@@ -43,7 +43,9 @@ COPY conf/config.php /var/www/html/
 RUN a2enmod rewrite
 RUN a2enmod ssl
 
+RUN mkdir /var/www/html/__uploads
 RUN chown -R www-data:www-data /var/www/html/*
+
 
 # apache user
 RUN usermod -u 1000 www-data \

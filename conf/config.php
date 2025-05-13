@@ -16,7 +16,7 @@ if (isset($_SERVER['HTTP_CF_VISITOR'])) {
 }
 
 
-
+error_reporting(E_ALL);
 $server = getenv('DB_SERVER');
 
 if (!empty($server)){

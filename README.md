@@ -22,7 +22,7 @@ Configuration is done via the following Environment Variables.
 
 ## How to use
 
-``` docker run --name rdm --rm -p 8000:80 -e DB_SERVER="host:docker:internal:3336" -e DB_USERNAME=root -e DB_PASSWORD=pwd -e DB_DATABASE=rdm  geschool/rdm ```
+``` docker run --name rdm --rm -p 8000:80 -e DB_SERVER="host.docker.internal:3336" -e DB_USERNAME=root -e DB_PASSWORD=pwd -e DB_DATABASE=rdm  geschool/rdm ```
 
 Open Browser to http://localhost:8000 to view
 
@@ -75,7 +75,7 @@ spec:
         image: geschool/rdm
         env:
         - name: DB_SERVER
-          value: "host:docker:internal:3336"
+          value: "host.docker.internal:3336"
         - name: DB_USER
           value: "user"
         - name: DB_PWD
@@ -85,5 +85,22 @@ spec:
         resources:
           requests:
             cpu: "10m"
+
+```
+
+
+# How to build
+
+```
+docker build . -t geschool/rdm
+
+```
+
+
+## Push to docker hub
+
+```
+
+docker push geschool/rdm
 
 ```
