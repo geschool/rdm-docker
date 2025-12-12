@@ -1,0 +1,25 @@
+name: Build Push to registry.geschool.id
+
+on:
+  workflow_dispatch:
+    inputs:
+      targetRef:
+        description: 'Git Ref to publish'
+        required: true
+        default: 'main'
+
+jobs:
+  build_push:
+    name: Build, Push registry.geschool.id
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - run: docker build . -t registry.geschool.id/rdm:latest
+      name: Build Docker image
+    
+    - name: Push image to registry (geschool)
+      run: docker image push registry.geschool.id/rdm:latest
+    
+   
+     

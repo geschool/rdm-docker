@@ -1,0 +1,12 @@
+services:
+
+  rdm:
+    image: geschool/rdm
+    restart: always
+    ports: 
+      - "8000:80"
+    environment:
+      DB_SERVER: host.docker.internal:3308
+      DB_USERNAME: dicky  
+      DB_PASSWORD: P455w0rd
+      DB_DATABASE: rdm_mtsn4klaten  
