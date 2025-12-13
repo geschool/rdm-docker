@@ -1,5 +1,7 @@
 FROM php:7.2-apache
-MAINTAINER geschool
+
+RUN sed -i 's/security\.debian\.org/archive.debian.org/g' /etc/apt/sources.list
+RUN sed -i 's/deb\.debian\.org/archive.debian.org/g' /etc/apt/sources.list
 
 
 # extension
