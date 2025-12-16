@@ -1,0 +1,124 @@
+ERROR - 2025-05-12 10:13:38 --> Query error: Duplicate column name 'semester_jenis' - Invalid query: ALTER TABLE `e_semester`
+	ADD `semester_jenis` INT(1) DEFAULT '1'
+ERROR - 2025-05-12 10:14:09 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - Invalid query: ALTER TABLE `e_kurikulum`  MODIFY `kurikulum_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT
+ERROR - 2025-05-12 10:14:09 --> Severity: Warning --> Use of undefined constant APPDEV - assumed 'APPDEV' (this will throw an Error in a future version of PHP) C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 10:14:12 --> Severity: Warning --> Use of undefined constant APPDEV - assumed 'APPDEV' (this will throw an Error in a future version of PHP) C:\RDMMadrasah\htdocs\application\libraries\AssetPacker.php 0
+ERROR - 2025-05-12 10:14:12 --> Severity: Warning --> Use of undefined constant APPDEV - assumed 'APPDEV' (this will throw an Error in a future version of PHP) C:\RDMMadrasah\htdocs\application\libraries\AssetPacker.php 0
+ERROR - 2025-05-12 10:14:14 --> Severity: Warning --> Use of undefined constant APPDEV - assumed 'APPDEV' (this will throw an Error in a future version of PHP) C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 10:53:55 --> Query error: MySQL server has gone away - Invalid query: SET FOREIGN_KEY_CHECKS=1;
+ERROR - 2025-05-12 00:54:01 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 00:54:01 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:03 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:03 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 00:54:05 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:05 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 00:54:05 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 00:54:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 00:54:08 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:10 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:10 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 00:54:12 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:12 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 00:54:12 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 00:54:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 00:54:14 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:16 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:16 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 00:54:18 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:18 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 00:54:18 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 00:54:20 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 00:54:20 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:23 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:23 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 00:54:25 --> Unable to connect to the database
+ERROR - 2025-05-12 00:54:25 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 00:54:25 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 12:23:22 --> Query error: MySQL server has gone away - Invalid query: REPLACE INTO `e_inputnilai` (`inputnilai_id`, `siswa_id`, `komponennilai_id`, `inputnilai_nilai`, `inputnilai_predikat`, `inputnilai_catatan`) VALUES ('2021200000000058076', '3022606000295', '2021200000000002074', '83', '0', '')
+ERROR - 2025-05-12 12:23:22 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::_error_message() C:\RDMMadrasah\htdocs\application\modules\proktor\controllers\Backuprestore.php 0
+ERROR - 2025-05-12 02:23:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 02:23:25 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:27 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:27 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 02:23:29 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:29 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 02:23:29 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 02:23:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 02:23:31 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:33 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:33 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 02:23:35 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:35 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 02:23:35 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 02:23:38 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 02:23:38 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:40 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:40 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 02:23:42 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:42 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 02:23:42 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 02:23:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 02:23:44 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:46 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:46 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 02:23:48 --> Unable to connect to the database
+ERROR - 2025-05-12 02:23:48 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 02:23:48 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 04:12:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 04:12:54 --> Unable to connect to the database
+ERROR - 2025-05-12 04:12:56 --> Unable to connect to the database
+ERROR - 2025-05-12 04:12:56 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 04:12:58 --> Unable to connect to the database
+ERROR - 2025-05-12 04:12:58 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 04:12:58 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 04:13:38 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\RDMMadrasah\htdocs\system\database\drivers\mysqli\mysqli_driver.php 0
+ERROR - 2025-05-12 04:13:38 --> Unable to connect to the database
+ERROR - 2025-05-12 04:13:40 --> Unable to connect to the database
+ERROR - 2025-05-12 04:13:40 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 04:13:42 --> Unable to connect to the database
+ERROR - 2025-05-12 04:13:42 --> Query error: No connection could be made because the target machine actively refused it.
+ - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 04:13:42 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 14:31:46 --> Query error: Table 'rdm_mtsn4klaten.e_inputnilai' doesn't exist - Invalid query: REPLACE INTO `e_inputnilai` (`inputnilai_id`, `siswa_id`, `komponennilai_id`, `inputnilai_nilai`, `inputnilai_predikat`, `inputnilai_catatan`) VALUES ('2021100000000010066', '3022606000456', '2021100000000000348', '3', '0', '')
+ERROR - 2025-05-12 14:31:46 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::_error_message() C:\RDMMadrasah\htdocs\application\modules\proktor\controllers\Backuprestore.php 0
+ERROR - 2025-05-12 04:31:46 --> Query error: Table 'rdm_mtsn4klaten.e_settings' doesn't exist - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 04:31:46 --> Query error: Table 'rdm_mtsn4klaten.e_lembaga' doesn't exist - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 04:31:46 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 04:31:47 --> Query error: Table 'rdm_mtsn4klaten.e_settings' doesn't exist - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 04:31:47 --> Query error: Table 'rdm_mtsn4klaten.e_lembaga' doesn't exist - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 04:31:47 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 04:31:48 --> Query error: Table 'rdm_mtsn4klaten.e_settings' doesn't exist - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 04:31:48 --> Query error: Table 'rdm_mtsn4klaten.e_lembaga' doesn't exist - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 04:31:48 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0
+ERROR - 2025-05-12 04:31:48 --> Query error: Table 'rdm_mtsn4klaten.e_settings' doesn't exist - Invalid query: SELECT settings_value FROM e_settings where settings_nama='revision'
+ERROR - 2025-05-12 04:31:48 --> Query error: Table 'rdm_mtsn4klaten.e_lembaga' doesn't exist - Invalid query: select lembaga_profile from e_lembaga where lembaga_id=''
+ERROR - 2025-05-12 04:31:48 --> Severity: error --> Exception: Call to a member function num_rows() on boolean C:\RDMMadrasah\htdocs\application\models\Emodel.php 0

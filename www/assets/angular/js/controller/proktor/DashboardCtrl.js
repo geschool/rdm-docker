@@ -1,0 +1,1 @@
+angular.module("RdmApp").controller("DashboardCtrl",["$scope","$rootScope","common","DTOptionsBuilder","DTColumnBuilder","$http","$q","ApiServer",function(o,r,d,a,t,n,e,l){o.getdashboard=function(){l.get("proktor/dashboard",(function(o){r.dashboard=o.data,r.logAdmin=o.log}))},o.getdashboard()}]);
